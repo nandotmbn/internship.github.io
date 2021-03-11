@@ -1,0 +1,33 @@
+.banner-parallax1 {
+    filter: brightness(30%);
+    height: fit-content;
+}
+.parallax-container {
+    height: 550px !important;
+}
+
+.input-field {
+    display: inline-block;
+    width: 95%;
+}
+
+.input-field > .material-icons {
+    color: white !important;
+}
+
+.input-field > .material-icons.active {
+    color: #26a69a !important;
+}
+
+.banner-overlay {
+    display: block;
+    position: absolute;
+    top: 150px;
+    margin-left: 50%;
+}
+
+.input-field input[type=text] {
+    color: white;
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 #000;
+}

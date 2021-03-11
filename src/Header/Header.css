@@ -1,0 +1,42 @@
+.header {
+    background-color: white;
+    height: 96px;
+    position: fixed !important;
+    transition: 1s ease-out;
+    z-index: 10;
+}
+
+.grad-background {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0.2978233529740021) 69%, rgba(255,255,255,0.1549662101168593) 100%);
+}
+
+.account-nav {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    margin-top: 16px;
+    font-size: 1.2em;
+}
+
+img.brand-logo {
+    margin-top: 8px;
+    width: 180px;
+}
+
+i.material-icons{
+    color: black;
+    font-size: 3em !important;
+    margin-top: 16px;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 5% !important;
+    padding-bottom: 20% !important;
+}

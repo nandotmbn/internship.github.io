@@ -1,0 +1,25 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: max-content;
+    background-color: rgb(255, 248, 235);
+    padding: 50px;
+}
+
+.lists-dept > * {
+    margin-right: 20px;
+}
+
+li.list-dept {
+    margin-bottom: 4px;
+}
+
+li.list-contact {
+    margin-bottom: 4px;
+}
+
+.list-dept > a {
+    color: rgb(64, 107, 0);
+}

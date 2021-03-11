@@ -1,0 +1,45 @@
+@media screen and (max-width : 770px) {
+    .card div.card-content {
+        padding: 10px;
+        border-radius: 0 0 2px 2px;
+    }
+
+    .univ-name {
+        height: 65px;
+    }
+
+    .card-image > img {
+        height: 100px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .card-image > img {
+        height: 100px;
+        padding: 12px;
+    }
+
+    .univ-name > a {
+        font-size: 0.9em;
+    }
+
+    .kinds {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width : 380px) {
+    .card > div.card-content {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width : 325px) {
+    .univ-name > a {
+        font-size: 0.8em;
+    }
+    .kinds {
+        font-size: 1.2em;
+    }
+}

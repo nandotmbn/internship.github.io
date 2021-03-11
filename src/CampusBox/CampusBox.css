@@ -1,0 +1,13 @@
+#campus-box {
+    margin-top: 64px;
+    transition: 1s ease;
+}
+
+.kind {
+    margin-left: 16px;
+}
+
+i.material-icons.next-icon {
+    padding-left: 10% !important;
+    font-size: 130px !important;
+}

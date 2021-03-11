@@ -1,0 +1,47 @@
+@media screen and (max-width: 1030px) {
+    .account-nav {
+        margin-left: 10px;
+    }
+    .nav-menus {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navs {
+        flex-direction: column !important;
+    }
+    .navs-wrapper {
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    img.brand-logo {
+        margin-top: 20px;
+        width: 130px;
+    }
+
+    i.material-icons{
+        color: black;
+        font-size: 2.5em !important;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    
+}
+
+@media screen and (max-width: 330px) {
+    img.brand-logo {
+        margin-top: 20px;
+        width: 110px;
+    }
+
+    i.material-icons{
+        color: black;
+        font-size: 2em !important;
+        margin-top: 16px;
+    }
+}

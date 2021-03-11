@@ -1,0 +1,15 @@
+@media screen and (max-width : 770px) {
+    #footer {
+        padding: 20px;
+    }
+
+    li.list-dept {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    #footer {
+        flex-direction: column !important;
+    }
+}

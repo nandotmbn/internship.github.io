@@ -1,0 +1,15 @@
+#info-box {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4px;
+}
+
+.count-box > * {
+    padding: 4px;
+    text-align: center;
+    color: rgb(88, 133, 0);
+}
+
+.count-box > p {
+    font-size: 3em;
+}

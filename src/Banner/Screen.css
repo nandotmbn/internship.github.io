@@ -1,0 +1,33 @@
+@media screen and (max-width: 1030px) {
+    
+}
+
+@media screen and (max-width: 770px) {
+    
+}
+
+@media screen and (max-width: 430px) {
+    .banner-overlay {
+        display: block;
+        position: absolute;
+        top: 150px;
+        margin-left: 50%;
+    }
+    .banner-overlay > h4 {
+        font-size: 1.5em;
+    }
+    .input-field > label {
+        font-size: 0.6em !important;
+    }
+    .input-field > #TextInput-4 {
+        font-size: 0.8em !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    
+}
+
+@media screen and (max-width: 330px) {
+    
+}
